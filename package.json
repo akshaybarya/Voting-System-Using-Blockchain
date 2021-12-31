@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3002",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "node ethereum/newElection.js"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.6.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.1.0",
+    "@mui/lab": "^5.0.0-alpha.55",
+    "@mui/material": "^5.1.0",
+    "bcrypt": "^5.0.1",
+    "ganache-cli": "^6.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^4.1.0",
+    "mongoose": "^6.0.11",
+    "next": "latest",
+    "nodemailer": "^6.7.2",
+    "react": "^17.0.2",
+    "react-cookie": "^4.1.1",
+    "react-dom": "^17.0.2",
+    "solc": "^0.4.19",
+    "swr": "^1.0.1",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "1.0.0-beta.26"
+  }
+}
